@@ -18,10 +18,7 @@ As for the editor, use whatever you'd like. But we use (and recommend) VS Code i
 ## What You Should Do
 This code does not have any wiring for the logic of this calculator.
 It's practically, just plain HTML implemented with some helpful React Components.
-We would like you to finish this project by adding the logic to the components and make the calculator work properly.
-
-**But**, implementing a calculator is not as easy as it sounds.
-Here is what we would like you to accomplish:
+We would like you to finish this project by adding the logic to the components and make the calculator work properly. Here is what we would like you to accomplish:
 
 ### 1) Required items
 1. Every digit that is clicked should be added as the least significant digit.
@@ -55,9 +52,9 @@ However, you should only do this task if you have completed the above two.
 We are more interested in the above items than this one.
 Be mindful of the proper order of operations. This calculator does not support parenthesis.
 
-### Rules of the Game
+## Rules of the Game
 
-#### Don't
+### Don't
 1. You may not install any extra npm packages or use external libraries.
 2. You may not use jQuery (but that should be obvious).
 3. You may not edit `index.html` file.
@@ -65,14 +62,14 @@ Be mindful of the proper order of operations. This calculator does not support p
 5. You may not change the structure of the code (the folder hierarchy). The files that are there, should stay there.
 6. You may not use function components (and hooks). We are using class components and it should stay that way.
 
-#### Do
+### Do
 1. You may add new files in your implementation.
 2. You may add new folders under [src/](src/) if you need to organize your code.
 3. You may add new styling in [index.css](src/index.css).
 4. You may use tabs for indentation. This might sound unusual because most companies use spaces for indentation, but our coding convention requires use of tabs.
 5. You may use/create data structures if it would help you write better code. But all the data structures you need are either built-in ES6 or you may implement them yourself.
 
-## What we are looking for
+## What We Would Like to See
 
 1. **Do the Tasks in Order:** Don't rush through the tasks just to get all of them done. I cannot emphasize this enough. There is a reason we ordered those tasks in this manner. We are not looking for a hastily done project. This is not an exam and there are no partial points. We are evaluating you coding practices and CS knowledge. We would like it better if you complete task 1 to perfection, but not complete task 2 or 3. Rushing through tasks is how bugs are introduced in real-life software.
 2. **Bug Free Code:** I don't think I need to explain this. So, don't spend time on task 2 or 3, if your task 1 has bugs.
