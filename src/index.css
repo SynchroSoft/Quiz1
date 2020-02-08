@@ -12,16 +12,46 @@ code {
 		monospace;
 }
 
-.App {
+.app {
 	text-align: center;
 	background-color: #282c34;
 	color: white;
 	min-height: 100vh;
 }
 
-.App-header {
+.app-header {
 	min-height: 10vh;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(14px + 2vmin);
+}
+
+.calc {
+	align-items: center;
+	justify-content: center;
+	padding: 0 33vw;
+	width: 34vw;
+}
+
+.calc-row {
+	text-align: center;
+	width: 100%;
+	padding: 5px 0px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.calc * {
+	width: 100%;
+	padding: 5px 2px;
+}
+
+.calc-display {
+	text-align: right;
+}
+
+.calc-button {
+	width: 100%;
 }
